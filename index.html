@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vonplötz</title>
+    <!-- LINK DE CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- LINK DE GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Michroma&display=swap"
+      rel="stylesheet"
+    />
+    <!-- LINK DE BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- SWIPER JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- CDN FONT ICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary navbar navbar bg-dark"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/img/von.png" alt="" width="40px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" style="filter: invert(100%)"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#a0">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#a1">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#a2">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#a3">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- IMAGEN CON VONPLOTZ -->
+
+    <div class="customcontainer" id="a0">
+      <h1>Von Plötz</h1>
+      <img
+        width="200px"
+        src="./assets/img/von.png"
+        class="img-fluid img-thumbnail"
+        alt="..."
+      />
+      <p>Soluciones integrales</p>
+    </div>
+
+    <div class="nothing"></div>
+    <div class="whoweare" id="a1">
+      <h2>Quienes Somos?</h2>
+      <div class="whowearep">
+        <p>
+          Von Plötz es una empresa que ofrece servicios de construcción,
+          gasfitería, mueblería, pintura,sistemas de regadío entre otros.
+          Proporcionan soluciones completas para construcciones, remodelaciones
+          y reparaciones, además de servicios de instalación, fabricación y
+          pintura para hogares y empresas.
+        </p>
+      </div>
+    </div>
+
+    <div class="nothing"></div>
+
+    <div class="servicios" id="a2">
+      <h3>Servicios</h3>
+
+      <div class="services">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                width="600px"
+                src="./assets/img/b.jpg"
+                class="img-fluid"
+                alt="..."
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                width="600px"
+                src="./assets/img/c.jpg"
+                class="img-fluid"
+                alt="..."
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                width="600px"
+                src="./assets/img/d.jpg"
+                class="img-fluid"
+                alt="..."
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                width="600px"
+                src="./assets/img/e.jpg"
+                class="img-fluid"
+                alt="..."
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                width="600px"
+                src="./assets/img/f.jpg"
+                class="img-fluid"
+                alt="..."
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                width="600px"
+                src="./assets/img/kitchen.jpg"
+                class="img-fluid"
+                alt="..."
+              />
+            </div>
+
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nothing"></div>
+
+    <div class="footer" id="a3">
+      <h5>Contacto</h5>
+
+      <div class="customicon">
+        <a href="http://" target="_blank" rel="noopener noreferrer"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+        <a
+          href="https://www.tiktok.com/@rodrigovonplotz"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/vonplotz/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+
+      <div class="direccion">
+        <p>Las condes #9967, Santiago, Chile.</p>
+      </div>
+
+      <div class="imgfooter">
+        <img
+          width="200px"
+          src="./assets/img/von.png"
+          class="img-fluid img-thumbnail"
+          alt="logo vonplotz"
+        />
+      </div>
+
+      <div class="derechos">
+        <p>VÖNPLÖTZ © todos los derechos reservados</p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

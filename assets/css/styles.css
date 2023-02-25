@@ -1,0 +1,176 @@
+* {
+  font-family: "Michroma", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.customcontainer {
+  max-width: 100%;
+  height: 600px;
+  background-image: url(../img/bg.jpg);
+  display: grid;
+  place-items: center;
+}
+
+.customcontainer h1 {
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+
+.customcontainer img {
+  display: block;
+}
+
+.customcontainer p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nothing {
+  background-color: black;
+  height: 80px;
+  width: 100%;
+}
+
+.whoweare {
+  background-image: url(../img/habitacion.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+}
+
+.whoweare h2 {
+  font-size: 40px;
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.whowearep {
+  margin-top: 15px;
+}
+
+.whowearep p {
+  font-size: 15px;
+  padding: 80px;
+  color: white;
+}
+
+/* SERVICIOS =============================================================================================*/
+
+.servicios {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/bw.jpg);
+}
+
+.servicios h3 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 50px;
+}
+
+/* SWIPER============================================================================================= */
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER======================================================================================================= */
+
+.footer {
+  max-width: 100%;
+  height: 600px;
+  background-image: url(../img/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  justify-content: center;
+}
+
+.footer h5 {
+  padding-top: 25px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.customicon {
+  display: block;
+  justify-content: center;
+
+  text-align: center;
+  max-width: 100%;
+}
+
+.customicon i {
+  font-size: 40px;
+}
+
+.customicon a {
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.direccion {
+  display: flex;
+  justify-content: center;
+}
+
+.direccion p {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.imgfooter {
+  display: grid;
+  place-items: center;
+  padding-top: 60px;
+}
+
+.derechos {
+  display: flex;
+  justify-content: center;
+}
+
+.derechos p {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
