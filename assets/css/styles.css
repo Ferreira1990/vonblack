@@ -10,23 +10,21 @@ body {
 .customcontainer {
   max-width: 100%;
   height: 600px;
-  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.65),rgba(59, 59, 59, 0.65),
-   rgba(0, 0, 0, 0.65)), url(../img/bg.jpg);  
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.65),
+      rgba(97, 97, 97, 0.3),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/bg.jpg);
   display: grid;
   place-items: center;
   border: none;
-  
-  
-  
-  
-  
 }
 
-.customcontainer img{
+.customcontainer img {
   margin-bottom: 150px;
-  filter: contrast(150%) brightness(150%);  
-  
-
+  filter: contrast(150%) brightness(150%);
 }
 
 .customcontainer h1 {
@@ -36,8 +34,6 @@ body {
   text-transform: uppercase;
   padding-top: 50px;
 }
-
-
 
 .customcontainer p {
   color: white;
@@ -121,13 +117,12 @@ body {
 .footer {
   max-width: 100%;
   height: 100%;
-  background-image:  url(../img/contact.jpg);
+  background-image: url(../img/contact.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: block;
   justify-content: center;
-    
 }
 
 .footer h5 {
@@ -173,10 +168,9 @@ body {
 .imgfooter {
   display: grid;
   place-items: center;
-  padding-top: 60px;  
-
+  padding-top: 60px;
 }
-.imgfooter img{
+.imgfooter img {
   margin-bottom: 150px;
   margin-bottom: 150px;
   filter: contrast(150%) brightness(150%);
@@ -193,5 +187,3 @@ body {
   color: white;
   font-size: 15px;
 }
-
-
