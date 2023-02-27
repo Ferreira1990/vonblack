@@ -10,7 +10,14 @@ body {
 .customcontainer {
   max-width: 100%;
   height: 600px;
-  background-image: url(../img/bg.jpg);  
+  background-image: linear-gradient(to right,
+  rgba(10, 10, 10, 0.814),
+  rgba(115, 115, 115, 0.200),
+  rgba(115, 115, 115, 0.200),
+  rgba(255, 255, 255, 0.100),
+  rgba(0, 0, 0, 0.1),
+   rgba(0, 0, 0, 0.65)), url(../img/bg.jpg);  
+ 
   display: grid;
   place-items: center;
   border: none;
@@ -21,6 +28,8 @@ body {
 .customcontainer img {     
   margin-bottom: 150px;
   filter: contrast(150%) brightness(150%);
+  
+
 }
 
 .customcontainer h1 {
@@ -33,7 +42,8 @@ body {
 
 .customcontainer p {
   color: white;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -68,7 +78,8 @@ body {
 }
 
 .whowearep p {
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: bold;
   padding: 80px;
   color: white;
 }
