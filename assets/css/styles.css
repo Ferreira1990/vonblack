@@ -72,6 +72,7 @@ body {
 }
 
 .whoweare h2 {
+  width: 100%;
   font-size: 40px;
   padding-top: 30px;
   color: white;
@@ -105,6 +106,7 @@ body {
 }
 
 .servicios h3 {
+  width: 100%;
   font-size: 40px;
   text-align: center;
   color: white;
@@ -182,6 +184,7 @@ body {
 }
 
 .footer h5 {
+  width: 100%;
   padding-top: 25px;
   color: white;
   font-size: 40px;
@@ -247,20 +250,4 @@ body {
 
 
 
-
-
-
 /* ===============CUSTOMIZE SCROLLBAR================ */
-
-::-webkit-scrollbar {
-  width: 15px;
-}
-
-::-webkit-scrollbar-track {
-  background: #000000;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(#bb0000, #ff0000, #f2ff00fc, #cbd600);
-  border-radius: 10px;
-}
