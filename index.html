@@ -32,6 +32,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
+
+    <!-- LINK AOS================================== -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- NAVBAR -->
@@ -88,9 +91,9 @@
 
     <div class="nothing"></div>
     <div class="whoweare" id="a1">
-      <h2>Quienes Somos?</h2>
+      <h2 data-aos="fade-left">Quienes Somos?</h2>
       <div class="whowearep">
-        <p>
+        <p data-aos="fade-right"> 
           Von Plötz es una empresa que ofrece servicios de construcción,
           gasfitería, mueblería, pintura,sistemas de regadío entre otros.
           Proporcionanamos soluciones completas para construcciones, remodelaciones
@@ -105,7 +108,7 @@
     <!-- =============================================SERVICIOS============================================================ -->
 
     <div class="servicios" id="a2">
-      <h3>Servicios</h3>
+      <h3 data-aos="fade-left">Servicios</h3>
 
       <div class="services">
         <!-- Slider main container -->
@@ -192,8 +195,8 @@
 
     <div class="nothing"></div>
 
-    <div class="footer" id="a3">
-      <h5>Contacto</h5>
+    <div class="footer" id="a3" >
+      <h5 data-aos="fade-right">Contacto</h5>
 
       <div class="customicon">
         <a href="http://" target="_blank" rel="noopener noreferrer"
@@ -259,5 +262,11 @@
         },
       });
     </script>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
